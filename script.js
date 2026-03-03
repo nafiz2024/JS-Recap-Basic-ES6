@@ -27,4 +27,17 @@ function getcardHTML(name, discription, price){
     `;
     console.log(div);
 }
-getcardHTML('iphone 17', 'This is most common phone', '2 laks');
+// getcardHTML('iphone 17', 'This is most common phone', '2 laks');
+
+const multiply1 = (num1, num2) => num1 * num2;
+// console.log(multiply1(2, 3));
+
+const tenTimes = num => num * 10;
+// console.log(tenTimes(10));
+
+const max = Math.max(3, 5, 1, 8, 4, 48, 2);
+// console.log(max);
+
+const numbers = [3, 5, 1, 8, 4, 48, 2];
+const max2 = Math.max(...numbers);
+// console.log(...numbers);
