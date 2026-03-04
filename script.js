@@ -41,3 +41,17 @@ const max = Math.max(3, 5, 1, 8, 4, 48, 2);
 const numbers = [3, 5, 1, 8, 4, 48, 2];
 const max2 = Math.max(...numbers);
 // console.log(...numbers);
+
+const details = {
+    name: 'Nafiz',
+    age: 24,
+    family : {
+        father: 'Masud Alam',
+        mother: {
+            name: 'Nasrin Aktery',
+            age: 45
+        }
+    }
+}
+
+console.log(details?.family?.mother?.age);
