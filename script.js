@@ -67,3 +67,13 @@ const details = {
 // }
 // const result = add2(5, 5);
 // console.log(result)
+
+function outerFunction(){
+    function innerFunction(){
+        console.log("This is inner Function!");
+    }
+    return innerFunction;
+}
+
+const result = outerFunction();
+result()
