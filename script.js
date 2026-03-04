@@ -74,6 +74,12 @@ function outerFunction(){
     }
     return innerFunction;
 }
+// const result = outerFunction();
+// result()
 
-const result = outerFunction();
-result()
+const number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const square = number.map(num => num * num);
+
+console.log(square);
+console.log(number);
