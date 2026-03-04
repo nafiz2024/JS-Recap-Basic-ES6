@@ -53,5 +53,17 @@ const details = {
         }
     }
 }
+// console.log(details?.family?.mother?.age);
 
-console.log(details?.family?.mother?.age);
+// function add2 (a, b) {
+//     const result = (a + b);
+//     const total = doubleIt(result);
+//     return total;
+// }
+//
+// function doubleIt(result){
+//     total = result * result;
+//     return total;
+// }
+// const result = add2(5, 5);
+// console.log(result)
