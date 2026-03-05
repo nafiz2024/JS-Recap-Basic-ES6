@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
   </head>
   <body>
 
     <!-- <button onclick="loadData()">Load Data</button> -->
 
-    <button onclick="loadPosts()">Load Posts</button>
+    <button class="btn" onclick="loadPosts()">Load Posts</button>
 
-    <ul id="posts_container"></ul>
+    <section>
+      <div  id="posts_container" class="">
+        
+      </div>
+    </section>
     
   <script src="script.js"></script>
   <script src="./posts.js"></script>
