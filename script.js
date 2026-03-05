@@ -84,7 +84,7 @@
 // console.log(square);
 // console.log(number);
 
-const loadData = () => {
+/* const loadData = () => {
     fetch('https://jsonplaceholder.typicode.com/posts/1')
     .then((res) => res.json())
     .then((data) => {})
@@ -105,4 +105,4 @@ const displayPosts = (posts) => {
     posts.forEach((post) => {
         console.log(post);
     })
-}
+}; */
